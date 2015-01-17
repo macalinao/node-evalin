@@ -1,0 +1,22 @@
+{
+  "name": "evalin",
+  "description": "Eval.in API reverse engineered for Node.js",
+  "version": "0.0.0",
+  "dependencies": {},
+  "author": "Ian Macalinao <me@ian.pw>",
+  "repository": "simplyianm/evalin",
+  "license": "MIT",
+  "keywords": [
+    "evalin",
+    "eval",
+    "sandbox",
+    "execution"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
+}

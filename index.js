@@ -24,9 +24,6 @@ module.exports = function(code, lang) {
 };
 
 var langs = [{
-  "id": "Select language",
-  "name": "Select language"
-}, {
   "id": "c/gcc-4.4.3",
   "name": "C / GCC 4.4.3"
 }, {

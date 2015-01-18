@@ -8,6 +8,6 @@ describe('evalin', function() {
       expect(res.lang).to.equal(lang);
       expect(res.output).to.equal('test\n');
       done();
-    });
+    }, done);
   });
 });

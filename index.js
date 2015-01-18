@@ -15,6 +15,7 @@ module.exports = function(code, lang) {
       .set('Content-Type', 'application/x-www-form-urlencoded')
       .end(function(res) {
         var loc = res.redirects[0];
+        if (!loc) return reject(new Error('Redirect not working'));
         request.get(loc + '.json').end(function(ress) {
           resolve(ress.body);
         });

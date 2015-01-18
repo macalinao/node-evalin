@@ -1,8 +1,13 @@
 var expect = require('chai').expect;
-var func = require('./');
+var evalin = require('./');
 
 describe('evalin', function() {
-  it('should ...', function() {
-    expect(true).to.be.true;
+  it('should run python', function(done) {
+    var lang = 'python/cpython-2.7.8';
+    evalin('print "test"', '').then(function(res) {
+      expect(res.lang).to.equal(lang);
+      expect(res.output).to.equal('test\n');
+      done();
+    });
   });
 });

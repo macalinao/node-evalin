@@ -1,14 +1,14 @@
 {
   "name": "evalin",
   "description": "Eval.in API reverse engineered for Node.js",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "dependencies": {
     "bluebird": "^2.7.1",
     "superagent": "^0.21.0",
     "superagent-bluebird-promise": "^0.6.0"
   },
   "author": "Ian Macalinao <me@ian.pw>",
-  "repository": "simplyianm/evalin",
+  "repository": "simplyianm/node-evalin",
   "license": "MIT",
   "keywords": [
     "evalin",
